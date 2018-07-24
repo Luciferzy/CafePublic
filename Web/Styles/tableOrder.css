@@ -1,0 +1,209 @@
+﻿body
+{
+    background-color: #FFF; margin:0; padding:0;
+}
+a
+{
+    cursor: pointer;
+}
+    .table2 a:hover
+{
+    color: Red;
+}
+.tableorder
+{
+    width: 100%;
+    font-size: 12px;
+    font-family: '微软雅黑';
+    border-width: 1px;
+    border-color: #999999;
+    border-collapse: collapse;
+}
+.tableorder th
+{
+    height: 23px;
+    color: Black;
+    border-width: 1px;
+    padding: 1px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+.tableorder td
+{
+    text-align: center;
+    height: 20px;
+    border-width: 1px;
+    padding: 1px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+.table1
+{
+    width: 100%;
+    font-size: 12px;
+    font-family: '微软雅黑';
+    border-width: 1px;
+    border-color: #999999;
+    border-collapse: collapse;
+}
+.table1 th
+{
+    height: 23px;
+    background-color: #F0F0F0;
+    color: Black;
+    border-width: 1px;
+    padding: 1px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+.table1 td
+{
+    text-align: center;
+    height: 20px;
+    border-width: 1px;
+    padding: 1px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+.table11
+{
+    width: 100%;
+    font-size: 15px;
+    font-family: '微软雅黑';
+    border-width: 1px;
+    border-color: Black;
+    border-collapse: collapse;
+}
+.table11 td
+{
+    text-align: center;
+    height: 20px;
+    border-width: 1px;
+    padding: 1px;
+    border-style: solid;
+    border-color: Black;
+}
+.table2
+{
+    width: 100%;
+    font-size: 13px;
+    font-family: 宋体;
+}
+.td2
+{
+    height: 17px;
+    font-size: 13px;
+    padding-left: 8px;
+}
+.style1
+{
+    color: #006600;
+}
+.style2
+{
+    color: #FF6600;
+}
+input.button
+{
+    border: #8E9C5E 1px solid;
+    padding: 1px 5px;
+    font-size: 13px;
+    background: #fff url(../Images/Index/btn_bg.jpg) repeat-x left center;
+    cursor: pointer;
+    height: 20px;
+    line-height: 16px;
+}
+.pDiv
+{
+    background: url(../Images/Index/mubj.jpg) repeat-x 0 -1px;
+    border: 1px solid #a9c6c9;
+    border-top: 0;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+.pDiv2
+{
+    float: left;
+    margin: 3px 3px 3px -2px;
+}
+.pGroup
+{
+    float: left;
+    background: none;
+    height: 24px;
+    margin: 0 5px;
+}
+.pButton
+{
+    float: left;
+    width: 22px;
+    height: 22px;
+    border: 0;
+    cursor: pointer;
+    overflow: hidden;
+}
+.pButton:hover, .flexigrid div.pDiv div.pButton.pBtnOver
+{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.pFirst
+{
+    background: url(../Images/Index/first.gif) no-repeat center;
+}
+.pPrev
+{
+    background: url(../Images/Index/prev.gif) no-repeat center;
+}
+.btnseparator
+{
+    float: left;
+    height: 22px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #fff;  
+    margin: 1px;
+}
+.pNext
+{
+    background: url(../Images/Index/next.gif) no-repeat center;
+}
+.pLast
+{
+    background: url(../Images/Index/last.gif) no-repeat center;
+}
+.pGo
+{
+    background: url(../Images/Index/go.jpg) no-repeat center;
+}
+.pReload
+{
+    background: url(../Images/Index/load.png) no-repeat center;
+}
+.pReloading
+{
+    background: url(../Images/Index/load.gif) no-repeat center;
+}
+.pPageStat
+{
+    position: relative;
+    top: 5px;
+    overflow: visible;
+}
+.mDiv
+{
+    background: url(../Images/Index/wbg.gif) repeat-x top;
+    border: 1px solid #ccc;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 0;
+    border-top: 0;
+    font-weight: 700;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}

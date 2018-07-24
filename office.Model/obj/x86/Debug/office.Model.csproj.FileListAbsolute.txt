@@ -1,0 +1,12 @@
+F:\net\CafeProject\office.Model\bin\Debug\office.Model.dll
+F:\net\CafeProject\office.Model\bin\Debug\office.Model.pdb
+F:\net\CafeProject\office.Model\obj\x86\Debug\office.Model.dll
+F:\net\CafeProject\office.Model\obj\x86\Debug\office.Model.pdb
+D:\01_Brighten\07_BrightenCoffee\CafeProject（张）(1)\CafeProject\office.Model\bin\Debug\office.Model.dll
+D:\01_Brighten\07_BrightenCoffee\CafeProject（张）(1)\CafeProject\office.Model\bin\Debug\office.Model.pdb
+D:\01_Brighten\07_BrightenCoffee\CafeProject（张）(1)\CafeProject\office.Model\obj\x86\Debug\office.Model.dll
+D:\01_Brighten\07_BrightenCoffee\CafeProject（张）(1)\CafeProject\office.Model\obj\x86\Debug\office.Model.pdb
+E:\w\1-咖啡表項目\CafeProject\office.Model\bin\Debug\office.Model.dll
+E:\w\1-咖啡表項目\CafeProject\office.Model\bin\Debug\office.Model.pdb
+E:\w\1-咖啡表項目\CafeProject\office.Model\obj\x86\Debug\office.Model.dll
+E:\w\1-咖啡表項目\CafeProject\office.Model\obj\x86\Debug\office.Model.pdb

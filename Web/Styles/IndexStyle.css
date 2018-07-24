@@ -1,0 +1,250 @@
+﻿html, body
+{
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    height: 100%;
+}
+#Headermenu
+{
+    float: left;
+    margin-right: 0px;
+    top: 0px;
+}
+#topnav a
+{
+    cursor: pointer;
+    display: inline;
+    float: left;
+    font-size: 9pt;
+    width: 55px;
+    margin: 0px 0px 0px 0px;
+    text-align: center;
+    height: 20px;
+    padding: 5px px 0px;
+    text-decoration: none;
+    color: #fff;
+    text-shadow: 0px -1px rgba(0,0,0,0.2);
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    overflow: hidden;
+    -moz-border-radius: 5px; /* Gecko browsers */
+    -webkit-border-radius: 5px; /* Webkit browsers */
+    border-radius: 5px; /* W3C syntax */
+}
+        #topnav a:hover
+{
+    background: rgba(0, 0, 0, 0.25);
+}
+        #topnav a.onnav{background:rgba(0, 0, 0, 0.25);}
+        #topnav a span{display:block;margin:0px auto 3px;width:22px;height:22px;overflow:hidden;}
+        #topnav a span.c1{background:url(../Images/Manager/n11.png) no-repeat;}
+        #topnav a span.c2{background:url(../Images/Manager/n21.png) no-repeat;}
+        #topnav a span.c3{background:url(../Images/Manager/n31.png) no-repeat;}
+        #topnav a span.c4{background:url(../Images/Manager/n41.png) no-repeat;}
+        #topnav a span.c5{background:url(../Images/Manager/n51.png) no-repeat;}
+        #topnav a span.c6{background:url(../Images/Manager/n61.png) no-repeat;}
+        #topnav a span.c7{background:url(../Images/Manager/n71.png) no-repeat;}
+ul
+{
+    font-size: 12px;
+    font-family: '微软雅黑';
+}
+li
+{
+    list-style: none;
+}
+ a
+{
+    text-decoration: none;
+}
+.header
+{
+    width: 100%;
+    background: url(../Images/Manager/header-bg.gif) repeat-x;
+    height: 84px;
+    margin: 0 auto;
+    border: 1px solid #e1e1e1;
+}
+.header div
+{
+    float: left;
+    height: 84px;
+}
+.header-ul
+{
+    padding: 0;
+    margin: 0;
+}
+.header-ul li
+{
+    list-style: none;
+    float: left;
+    display: block;
+    width: 100px;
+    height: 84px;
+}
+.header-ul li .noselected
+{
+    float: right;
+    height: 60px;
+    background: url(../Images/Manager/2.png);
+    width: 68px;
+    text-decoration: none;
+    margin-top: 12px;
+}
+.header-ul li a:hover
+{
+    background: url(../Images/Manager/1.png);
+}
+.selected
+{
+    float: right;
+    height: 60px;
+    background: url(../Images/Manager/1.png);
+    width: 68px;
+    text-decoration: none;
+    margin-top: 12px;
+}
+.header-ul li a:active
+{
+    background: url(../Images/Manager/1.png);
+}
+.header-ul li img
+{
+    margin-left: 24px;
+    border: 0;
+    width: 25px;
+    vertical-align: bottom;
+    margin-top: 10px;
+    height: 25px;
+}
+.header-ul li span
+{
+    float: none;
+    font-size: 12px;
+    width: 100%;
+    display: inline-block;
+    color: #000;
+    bottom: auto;
+    text-align: center;
+}
+.content
+{
+    width:100%;
+    height: 100%;
+    margin: 0 auto;
+    border-left: 1px solid #e1e1e1;
+    border-right: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+}
+.content div
+{
+    float: left;
+}
+.leftmenu
+{
+    width: 181px; float:left;
+    border-right: 1px solid #e1e1e1;
+    border-bottom: 1px solid #e1e1e1;
+    height: 100%;
+}
+.right-content
+{
+    width: 80%;
+    float: left;
+    height: 100%;
+}
+.title
+{
+    cursor: pointer;
+    width: 100%;
+    background-color: #e0edfe;
+    height: 30px;
+    font-size: 14px;
+    line-height: 30px;
+    font-family: '微软雅黑';
+    display: block;
+    border-right: 1px solid #a3b5cb;
+    border-bottom: 1px solid #a3b5cb;
+    color: #182f4e;
+}
+.title span
+{
+    margin-left: 5px;
+    margin-top: 10px;
+    margin-right: 5px;
+    height: 21px;
+    float: left;
+}
+.title img
+{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+.menuson
+{
+    font-weight: normal;
+    display: none;
+    overflow: auto;
+}
+.menuson img
+{
+    float: left;
+    width: 20px;
+    height: 20px;
+    margin-top: 5px;
+}
+.menu-content div:first-child .menuson
+{
+    display: block;
+}
+.menu-content
+{
+    height: 363px;
+}
+.leftmenu
+{
+    overflow: hidden;
+}
+.menuson li
+{
+    line-height: 25px; 
+    cursor: pointer;
+}
+.menuson a
+{
+    display: block;
+    text-decoration: none;
+    color: #000;
+    display: inline;
+    padding-top: 5px;
+}
+.menuson li.active a
+{
+    color: #fff;
+}
+.bf_title
+{
+    height: 84px;
+    width: 250px;
+    display: block;
+    line-height: 84px;
+    text-align: center;
+    color: Green;
+    font-size: 35px;
+}
+.Calendar
+{
+    font-size: 12px;
+}
+.otherMonth
+{
+    color: #e1e1e1;
+}
+.m_active
+{
+    color: Green !important;
+}

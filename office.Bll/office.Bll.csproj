@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{F1E06DAF-3AD6-41FB-9F33-30EA0A957F17}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>office.Bll</RootNamespace>
+    <AssemblyName>office.Bll</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>
+    </TargetFrameworkProfile>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <PlatformTarget>x86</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Budget.cs" />
+    <Compile Include="CafeChase.cs" />
+    <Compile Include="Cash.cs" />
+    <Compile Include="Department.cs" />
+    <Compile Include="FixedAssets.cs" />
+    <Compile Include="Key.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SideBar.cs" />
+    <Compile Include="wages.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\office.Dal\office.Dal.csproj">
+      <Project>{9E31A9A1-0DC4-4088-B4A4-28E064CB6345}</Project>
+      <Name>office.Dal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\office.Model\office.Model.csproj">
+      <Project>{D269D7D4-12DC-4AC2-9F46-1827D077C298}</Project>
+      <Name>office.Model</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\office.Utility\office.Utility.csproj">
+      <Project>{19FF8859-12C4-4144-9C53-2C98BEF746D4}</Project>
+      <Name>office.Utility</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

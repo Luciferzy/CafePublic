@@ -1,0 +1,306 @@
+﻿html, body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow: hidden;
+    font-family: 微软雅黑,宋体;
+} 
+button
+{
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #b3b3b3;
+    -moz-border-bottom-colors: none;
+    -moz-border-left-colors: none;
+    -moz-border-right-colors: none;
+    -moz-border-top-colors: none;
+    background-color: #f4f4f4;
+    background-image: -moz-linear-gradient(center top , #fff, #e4e4e4);
+    background-repeat: repeat-x;
+    border-image: none;
+    height: 20px;
+    width: 82px;
+    border-radius: 5px;
+    box-shadow: 0 1px 0 rgba(255, 255, 255, 0.2) inset, 0 1px 2px rgba(0, 0, 0, 0.05);
+    color: #333;
+    cursor: pointer;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 18px;
+    margin-bottom: 0;
+    text-align: center;
+    text-shadow: 0 1px 1px rgba(255, 255, 255, 0.75);
+}
+input.tbBlur, textarea.tbBlur
+{
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px #B2DD83 double;
+    background-color: #fff;
+    padding: 3px 2px 2px;
+}
+.searchTxt
+{
+    width: 100px;
+    border: 1px solid #d7d7d7;
+    height: 18px;
+    float: left; /*#ff6500*/
+    line-height: 21px;
+    margin-bottom: 0px;
+    border: 1px solid #ccc;
+    padding: 1px;
+    color: #444;
+}
+.table1
+{
+    font-size: 12px;
+    font-family: '微软雅黑';
+    border-width: 1px;
+    border-color: #999999;
+    border-collapse: collapse;
+}
+.table1 th
+{
+    height: 20px;
+    background-color: #F0F0F0;
+    color: Black;
+    border-width: 1px;
+    padding: 1px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+.table1 td
+{
+    text-align: center; 
+    height: 16px;
+    border-width: 1px;
+    padding: 1px;
+    border-style: solid;
+    border-color: #a9c6c9;
+}
+.listfoot
+{
+    position: absolute;
+    bottom: 0px;
+    width: 100%;
+    font-size: 12pt;
+    height: 30px;
+    text-align: center;
+    background-color: #F0F0F0;
+    z-index: 101;
+    overflow: hidden;
+}
+.listfoot2
+{
+    position: absolute;
+    bottom: 0px;
+    left: 151px; 
+    right:0px;
+    font-size: 12pt;
+    height: 30px;
+    text-align: center;
+    background-color: #F0F0F0;
+    z-index: 101;
+    overflow: hidden;
+}
+.listfoot1
+{
+    text-align: center;
+    margin: 3px;
+    background-color: #F0F0F0;
+}
+.listfoot1 a
+{
+    color: Black;
+    text-decoration: none;
+    cursor: pointer;
+}
+.listfoot1 a:hover
+{
+    color: Blue;
+}
+.divleft
+{
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 150px;
+    bottom: 0px;
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+.listcontent
+{
+    position: absolute;
+    top: 30px;
+    left: 0px;
+    width: 100%;
+    bottom:0px;
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+.listcontent2
+{
+    position: absolute;
+    top: 33px;
+    left: 0px;
+    width: 100%;
+    bottom:0px;
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+.listcontent1
+{
+    position: absolute;
+    top: 30px;
+    left: 151px;
+    right:0px;
+    bottom:0px;
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+.listhearder
+{
+    position: absolute;
+    left: -3px;
+    top: -2px;
+    width: 100%;
+    height: 35px;
+    margin: 1px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+.listhearder2
+{
+    position: absolute;
+    left: -3px;
+    top: -2px;
+    width: 100%;
+    height: 33px;
+    margin: 1px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+.listhearder1
+{
+    position: absolute;
+    left: 151px;
+    top: 0px;
+    right:0px;
+    height: 35px;
+    overflow: hidden;
+    background-color: #FFFFFF;
+    z-index: 1;
+}
+.listhearder span
+{
+    float: left;
+    height: 25px;
+    line-height: 25px;
+}
+.listadd
+{
+    position: absolute;
+    display: none;
+    top: 0px;
+    left: 0px;
+    z-index: 99999;
+}
+.pDiv
+{
+    background: url(../Images/Index/mubj.jpg) repeat-x 0 -1px;
+    border: 1px solid #a9c6c9;
+    border-top: 0;
+    font-size: 14px;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
+.pDiv2
+{
+    float:none;
+    margin: 3px 3px 3px -2px;
+}
+.pGroup
+{
+    float: left;
+    background: none;
+    height: 24px;
+    margin: 0 5px;
+}
+.pButton
+{
+    float: left;
+    width: 22px;
+    height: 22px;
+    border: 0;
+    cursor: pointer;
+    overflow: hidden;
+}
+.pButton:hover, .flexigrid div.pDiv div.pButton.pBtnOver
+{
+    width: 20px;
+    height: 20px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+.pFirst
+{
+    background: url(../Images/Index/first.gif) no-repeat center;
+}
+.pPrev
+{
+    background: url(../Images/Index/prev.gif) no-repeat center;
+}
+.btnseparator
+{
+    float: left;
+    height: 22px;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #fff;
+    margin: 1px;
+}
+.pNext
+{
+    background: url(../Images/Index/next.gif) no-repeat center;
+}
+.pLast
+{
+    background: url(../Images/Index/last.gif) no-repeat center;
+}
+.pGo
+{
+    background: url(../Images/Index/go.jpg) no-repeat center;
+}
+.pReload
+{
+    background: url(../Images/Index/load.png) no-repeat center;
+}
+.pReloading
+{
+    background: url(../Images/Index/load.gif) no-repeat center;
+}
+.pPageStat
+{
+    position: relative;
+    top: 5px;
+    overflow: visible;
+}
+.mDiv
+{
+    background: url(../Images/Index/wbg.gif) repeat-x top;
+    border: 1px solid #ccc;
+    height: 30px;
+    line-height: 30px;
+    border-bottom: 0;
+    border-top: 0;
+    font-weight: 700;
+    display: block;
+    overflow: hidden;
+    white-space: nowrap;
+    position: relative;
+}
